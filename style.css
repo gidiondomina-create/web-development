@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(224, 204, 204);
+}
+header{
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+h1 {
+    font-weight: 800;
+    font-style: oblique;
+    background-color: black;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    
+}
+header p {
+    font-style: oblique;
+    font-weight: 500;
+}
+.main-nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.main-nav li {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.main-nav {
+    margin: 20px ;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: flex-end;
+    display: flex;
+    
+}
+.main-nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: burlywood;
+    color: white;
+    border-radius: 10px;
+    text-align: right;
+    
+}
+.btn {
+    background-color: rgb(180, 180, 240);
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content; 
+    margin: 20px;
+    display: inline-block;
+}
+
+#academics {
+    background-color: grey;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    
+
+}
+#academics ul {
+    color: black;
+    text-align: left;
+    margin: auto;
+    width: fit-content;
+}
+#academics h2 {
+    font-style: oblique;
+    color: white;
+}
+
+.about {
+    background-color: rgb(200, 126, 223);
+    padding-left: 20px;
+    border-radius: 30px;
+}
+.about h2 {
+    text-align: center;
+    font-style: oblique;
+    color: white;
+}
+.about p {
+    color: black;
+}
+.contact {
+    text-align: center;
+    background-color: rgb(86, 224, 86);
+    
+}
+.contact h2 {
+    font-style: oblique;
+    color: white;
+}
+.site-footer p {
+    background-color: rgb(189, 189, 233);
+    
+}
+img {
+    width: 800px;border-radius: 30px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+.hero {
+    text-align: center;
+    background-color: rgb(102, 102, 175);
+
+    
+}
+.hero h2 {
+    font-style: oblique;
+    color: white;
+}
+img {
+    animation: moveUpDown 1s ease-in-out;
+
+}
+@keyframes moveUpDown {
+    from{
+        transform: translateY(-100%);
+        opacity: 1;
+      
+    }
+    to{
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+}
+
+
+
+
