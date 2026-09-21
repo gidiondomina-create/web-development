@@ -136,6 +136,29 @@ img {
     }
 
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.create {
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+.View {
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+.create-view {
+    display: flex;
+    gap: 25px;
+    padding: 25px;
+    background-color: rgb(146, 230, 202);
+    border-radius: 20px;
+}
 
 
 
