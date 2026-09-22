@@ -27,6 +27,7 @@ header p {
     width: 800px;
     margin: 30px auto;
     padding: 20px;
+    flex-wrap: wrap;
 }
 .student-form h2 {
     background-color: white;
