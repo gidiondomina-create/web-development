@@ -20,6 +20,46 @@ header p {
     font-style: oblique;
     font-weight: 500;
 }
+.student-form {
+    background-color: bisque;
+    border-radius: 20px;
+    display: none;
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.student-form h2 {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.student-form label {
+    display: block;
+    margin: 10px;
+    display: block;
+
+}
+.student-form input,.student-form select {
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    display: block;
+}
+.student-form input:hover,.student-form select:hover {
+    border-color: rgb(63, 63, 233);
+    
+}
+.student-form button {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+    display: block;
+}
+.student-form button:hover {
+    background-color: rgb(61, 224, 61);
+    transition: 1s;
+    transform: translateY(-5px);
+}
 .main-nav ul {
     list-style: none;
     text-align: center;
@@ -141,47 +181,27 @@ img {
     max-width: 100%;
     height: auto;
 }
-.cbtn {
-    height: 100px;
-    width: 100px;
-    background-color: whitesmoke;
-    border-radius: 20px;
-    padding: 20px;
-    color: black;
-    text-decoration: none;
-    
 
-
-
-}
-.cbtn:hover{
-    background-color: green;
-    transition: 2s;
-}
-.vbtn {
-    height: 100px;
-    width: 100px;
-    background-color: whitesmoke;
-    border-radius: 20px;
-    color: black;
-    text-decoration: none;
-    padding: 20px;
-    
-}
-.vbtn:hover {
-    background-color: rgb(127, 230, 127);
-    transition: 2s;
-}
-.create-view {
+.form {
+    background-color: rgb(127, 127, 230);
     display: flex;
-    gap: 25px;
-    padding: 25px;
-    background-color: rgb(196, 238, 224);
-    border-radius: 20px;
-    justify-content: center;
-    margin: none;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
 
 
+.input {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+.textarea {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 
