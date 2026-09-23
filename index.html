@@ -24,16 +24,16 @@
     <header class="site-header">
         <div class="container">
             <h1>IYUNGA SECONDARY SCHOOL...</h1>
-            <img src="image4.webp">
             <p>🔔📚Education is a key of life</p>
+            <img src="image5.webp">
         </div>
     </header>
-       <button type="button" onclick="showStudentForm()"><strong>➕Create Student></strong>
+       <button type="button" onclick="showStudentForm()" class="btn2"><strong>➕Create Student</strong>
        </button>
        <div class="student-form" id="studentForm">
         <h2>Student Registration Form</h2>
        <form>
-            <label for="name">Student Name:</label>
+            <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Enter your name"required>
             <label for="id">ID:</label>
             <input type="number" id="id" name="id" placeholder="Enter your ID"required>
@@ -59,8 +59,48 @@
         }
        </script>
 
-        <button onclick="showStudent()"><strong>👁️View Student</strong>
+        <button onclick="showStudentDetails()" class="btn2"><strong>👁️View Student</strong>
         </button>
+        <div class="student-details" id="studentdetails">
+            <table>
+                <thead>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Email</th>
+                    <th>Class</th>
+                    <th>Gender</th>   
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <script>
+            function showStudentDetails() {
+                document.getElementById("studentdetails").style.display = "block";
+            }
+           </script>
     <!-- Main Content -->
     <main>
 
