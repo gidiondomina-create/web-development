@@ -13,6 +13,7 @@ body{
     text-align: center;
     padding: 20px;
     border-radius: 20px;
+    background-repeat: no-repeat;
 
 }
 .site-header h1 {
@@ -160,16 +161,10 @@ body{
 }
 .site-footer p {
     background-color: rgb(189, 189, 233);
-    
-}
-img {
-    
 }
 .hero {
     text-align: center;
-    background-color: rgb(102, 102, 175);
-
-    
+    background-color: rgb(102, 102, 175);  
 }
 .hero h2 {
     font-style: oblique;
@@ -187,7 +182,7 @@ img {
     }
     to{
         transform: translateY(0);
-        opacity: 0;
+        opacity: 1;
     }
 
 }
@@ -229,7 +224,7 @@ table,th,td {
         padding: 15px;
     }
     .site-header h1 {
-        font-size: 28px;
+        font-size: 20px;
     }
     .site-header p{
         font-size: 18px;
