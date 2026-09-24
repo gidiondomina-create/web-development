@@ -2,23 +2,30 @@ body{
     background-color: rgb(224, 204, 204);
 }
 header{
-    background-color: rgb(131, 131, 235);
     text-align: center;
     border-radius: 20px;
     padding: 20px;
+    font-size: 50px;
+}
+.site-header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("image5.webp");
+    background-size: cover;
+    min-height: 500px;
+    background-position: center;
+
 }
 h1 {
     font-weight: 800;
     font-style: oblique;
-    background-color: black;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    color: white;
+    color: whitesmoke;
     
 }
 header p {
     font-style: oblique;
     font-weight: 500;
+    color: azure;
 }
 .student-form {
     background-color: bisque;
@@ -127,10 +134,15 @@ header p {
     padding-left: 20px;
     border-radius: 30px;
 }
+.about img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
 .about h2 {
     text-align: center;
     font-style: oblique;
-    color: white;
+    color: white;  
 }
 .about p {
     color: black;
@@ -149,12 +161,7 @@ header p {
     
 }
 img {
-    max-width: 800px;
-    width: 100%;
-    border-radius: 30px;
-    height: auto;
-    margin: 0 auto;
-    display: block;
+    
 }
 .hero {
     text-align: center;
@@ -168,8 +175,8 @@ img {
 }
 img {
     animation: moveUpDown 1s ease-in-out;
-
 }
+
 @keyframes moveUpDown {
     from{
         transform: translateY(-100%);
@@ -182,6 +189,7 @@ img {
     }
 
 }
+
 .btn2 {
     margin-top: 20px;
     margin-left: auto;
