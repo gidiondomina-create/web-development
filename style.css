@@ -24,7 +24,8 @@ header p {
     background-color: bisque;
     border-radius: 20px;
     display: none;
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     margin: 30px auto;
     padding: 20px;
     flex-wrap: wrap;
@@ -41,7 +42,8 @@ header p {
 
 }
 .student-form input,.student-form select {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     height: 35px;
     border-radius: 10px;
     display: block;
@@ -147,8 +149,10 @@ header p {
     
 }
 img {
-    width: 800px;border-radius: 30px;
-    height: 500px;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 30px;
+    height: auto;
     margin: 0 auto;
     display: block;
 }
@@ -178,38 +182,14 @@ img {
     }
 
 }
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.form {
-    background-color: rgb(127, 127, 230);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 15px;
-    margin-bottom: 15px;
-    flex-direction: column;
-}
-
-
-.input {
-    height: 30px;
-    width: 300px;
-    border-radius: 10px;
-}
-.textarea {
-    height: 30px;
-    width: 300px;
-    border-radius: 10px;
-}
-.btn2{
+.btn2 {
     margin-top: 20px;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     border-radius: 5px;
     background-color: rgb(104, 224, 104);
+
 }
 .student-details {
     display: none;
@@ -221,6 +201,17 @@ table,th,td {
     padding: 20px;
     border-collapse: collapse;
       
+}
+@media screen and (max-width: 600px) {
+    .main-nav li {
+        display: block;
+        margin: 5px auto;
+    }
+    .main-nav a {
+        display: block;
+        text-align: center;
+    }
+    
 }
 
 
