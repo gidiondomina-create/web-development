@@ -1,12 +1,7 @@
 body{
     background-color: rgb(224, 204, 204);
 }
-header{
-    text-align: center;
-    border-radius: 20px;
-    padding: 20px;
-    font-size: 50px;
-}
+
 .site-header {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("image5.webp");
     background-size: cover;
@@ -17,20 +12,22 @@ header{
     justify-content: center;
     text-align: center;
     padding: 20px;
+    border-radius: 20px;
 
 }
-h1 {
+.site-header h1 {
     font-weight: 800;
     font-style: oblique;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    font-size: 50px;
+    background-color: transparent;
     color: whitesmoke;
     
 }
-header p {
+.site-header p {
     font-style: oblique;
     font-weight: 500;
     color: azure;
+    font-size: 25px;
 }
 .student-form {
     background-color: bisque;
